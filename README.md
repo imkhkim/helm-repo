@@ -6,7 +6,7 @@ Helm chart repository provided by imkhkim
 
 ### Add this repository to your Helm
 ```bash
-helm repo add imkhkim-helm-repo https://sizhf1231.github.io/helm-repo/
+helm repo add imkhkim-helm-repo https://imkhkim.github.io/helm-repo/
 helm repo update
 ```
 
@@ -30,4 +30,9 @@ helm search repo imkhkim-helm-repo/<chart-name>
 ### Install a chart
 ```bash
 helm install <release-name> imkhkim-helm-repo/<chart-name>
+```
+
+### Remove this repository from your Helm
+```bash
+helm repo remove imkhkim-helm-repo
 ```
